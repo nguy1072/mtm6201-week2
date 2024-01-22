@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
   }
-
+/* adding grid properties to layout the cards */
 .emojis {
   display: grid;
   grid-template-rows: 300px 350px;
@@ -22,7 +22,7 @@ body {
     margin: 0;
     border-bottom: 2px solid #ccc;
   }
-  
+/* adding flex properties to layout the content of the cards */
   .emoji a {
     text-decoration: none;
     background-color: #781BAA;
@@ -33,15 +33,14 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+  /* rearranging the position of the icons */
   .icon {
     display: flex;
     font-size: 4rem;
     justify-content: center;
     order: -1;
   }
-
-.emoji {
-  display: flex;
-  flex-direction: column;
+/* adding flex-grow to align the buttons */
+.emoji p {
+  flex-grow: 1;
 }

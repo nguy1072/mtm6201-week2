@@ -21,6 +21,7 @@ body {
   .emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
+    flex-grow: 1;
   }
 /* adding flex properties to layout the content of the cards */
   .emoji a {
@@ -40,7 +41,7 @@ body {
     justify-content: center;
     order: -1;
   }
-/* adding flex-grow to align the buttons */
-.emoji p {
+  /* adding flex-grow to align the buttons */
+.emoji p{
   flex-grow: 1;
 }
